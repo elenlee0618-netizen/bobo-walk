@@ -21,8 +21,8 @@ window.SITE = {
      uploadUrl：Google Apps Script 部署後的網址（設定方法見 README.md）。留空時照片只存在學生自己的手機。
      uploadKey：和 Apps Script 裡的 KEY 填一樣的文字。
      ※ 這個測試版刻意留空，避免把測試資料傳進義起走讀的雲端硬碟。 */
-  uploadUrl: "",
-  uploadKey: "",
+   uploadUrl: "https://script.google.com/macros/s/AKfycbw-Vi9SlfzM9t0mSBrPnzh0uJn3nz7bjwrjOY8Nn6IPkRFICdD7J4hYtjZwtrHkzXoP/exec",
+  uploadKey: "bobo2026",
   maxPhotos: 10,
   /* ---------- 定位集章 ----------
      stampRadius：距離地點幾公尺內才能集章。孔廟和台文館只相隔約 90 公尺，建議改成 50。
